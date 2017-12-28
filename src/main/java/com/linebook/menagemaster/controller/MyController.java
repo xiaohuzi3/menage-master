@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 	@RequestMapping(value = "/",produces = "text/plain;charset=UTF-8")
 	public String index() {
-		return "hello world ??";
+		return "hello world first jenkins ";
 	}
 	@RequestMapping(value="/hello")
 	public String helloWorld() {
